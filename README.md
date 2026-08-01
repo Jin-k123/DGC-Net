@@ -4,7 +4,7 @@ Recognition (PRCV 2026)</h2>
 
 ## Overview
 <p align='center'>
-    <img src="" width="86%" height="86%">
+    <img src="figures/fig.2.pdf" width="86%" height="86%">
 </p>
 
 **Figure 1. Flow diagram of the DGC-Net model.**

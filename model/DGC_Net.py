@@ -32,18 +32,18 @@ def build_lwganet_backbone() -> nn.Module:
     The repository root must be available on PYTHONPATH and the official
     LWGANet implementation must be placed under:
 
-        model/LWGANet/classification/models/LWGANet.py
+        model.LWGA.py
     """
 
     try:
-        from model.LWGANet.classification.models.LWGANet import (
+        from model.LWGA import (
             LWGANet_L1_1242_e64_k11_GELU,
         )
     except ModuleNotFoundError as error:
         raise ModuleNotFoundError(
             "Unable to import the LWGANet backbone. Place the official "
             "LWGANet implementation under "
-            "'model/LWGANet/classification/models/LWGANet.py', or pass "
+            "'model.LWGA.py', or pass "
             "a custom structural_encoder to DGCNet."
         ) from error
 

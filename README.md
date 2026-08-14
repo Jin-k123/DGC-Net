@@ -43,5 +43,11 @@ Due to patient privacy protections, access to the **diagnosis dataset** can be r
 If you find the code helpful in your research or work, please cite the following paper:
 
 ```
-
+@inproceedings{jin2026dgcnet,
+  title={DGC-Net: Dual-Granularity Cross-Stage Calibration for Reactive Lymphocyte Recognition},
+  author={Mei, Liye and Jin, Ziheng and Song, Xiaofang and He, Jing and Ye, Zhiwei and Lei, Cheng and Shen, Hui and Xiong, Bei},
+  booktitle={Chinese Conference on Pattern Recognition and Computer Vision},
+  year={2026},
+  organization={Springer Nature}
+}
 ```
